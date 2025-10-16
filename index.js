@@ -1,6 +1,6 @@
-let firstName = 'Mark';
-let jobTitle = 'Manager';
-let city = 'Des Moines';
+var firstName = 'Mark';
+var jobTitle = 'Manager';
+var city = 'Des Moines';
 
 let newJobPost = 'Hello ${firstName},
   We have received your application for the position of ${jobTitle} in ${city}.
@@ -11,6 +11,7 @@ Thank you,
 HR person name';
 
 document.getElementByID("result").innerHTML = newJobPost;
+
 
 
 
