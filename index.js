@@ -10,7 +10,8 @@ within the week.
 Sincerely,
 HR person name`;
 
-document.getElementByID("result").innerHTML = newJobPost;
+document.getElementById('result').innerHTML = newJobPost;
+
 
 
 
