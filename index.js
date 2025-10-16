@@ -8,8 +8,9 @@ We will be in touch soon. Please reach out if you have not heard back from someo
 within the week.
   
 Thank you,
-HR person name'
+HR person name';
 
 document.getElementByID("result").innerHTML = newJobPost;
+
 
 
